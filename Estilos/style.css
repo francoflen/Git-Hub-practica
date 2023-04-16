@@ -20,6 +20,37 @@ header{
 p{
     background-color: rgb(188, 176, 39);
 }
-a{
-    
+/* Navegacion */
+nav{
+    background-color: rgb(255, 218, 68);
+}
+nav a{
+    background-color: rgb(255, 218, 68);
+    color: rgb(43, 147, 238);
+}
+
+/* Contenido */
+.contenido{
+    margin: 10px 15px;
+}
+button{
+    background-color: coral;
+    padding: 5px 10px;
+    border-radius: 2px;
+    float: right;
+}
+
+/* media */
+@media(max-width:480px){
+    body{
+        text-align: center;
+    }
+    button{
+        float: none;
+        text-align: center;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
 }
