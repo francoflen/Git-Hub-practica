@@ -1,3 +1,4 @@
+/*---- Contenido principal ----*/
 *{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: beige
@@ -9,9 +10,7 @@ h1,h2{
 h1{
     background-color:rgb(188, 176, 39);
 }
-nav{
-    text-align: center;
-}
+
 /*Header*/
 header{
     text-align: center;
@@ -23,6 +22,7 @@ p{
 /* Navegacion */
 nav{
     background-color: rgb(255, 218, 68);
+    text-align: center;
 }
 nav a{
     background-color: rgb(255, 218, 68);
